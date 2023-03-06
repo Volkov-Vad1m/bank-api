@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  bank-db:
+    image: postgres
+    ports:
+      - "54320:5432"
+    environment:
+      POSTGRES_PASSWORD: postgres
+

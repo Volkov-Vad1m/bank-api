@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:54320/postgres
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true # показывать запросы
+    generate-ddl: true # создать бд
+

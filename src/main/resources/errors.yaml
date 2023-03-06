@@ -1,0 +1,22 @@
+- code: ERR-001
+  http: 409
+  message: This username is already taken by other user.
+- code: ERR-002
+  http: 400
+  message: User creation form is not correct.
+- code: ERR-003
+  http: 409
+  message: The account has already been created.
+- code: ERR-004
+  http: 400
+  message: The account has not been created yet.
+- code: ERR-005
+  http: 400
+  message: Not enough money.
+- code: ERR-006
+  http: 404
+  message: Account not found.
+- code: ERR-007
+  http: 400
+  message: Value cannot be negative.
+
